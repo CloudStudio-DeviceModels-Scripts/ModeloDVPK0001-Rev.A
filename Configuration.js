@@ -25,8 +25,8 @@ function getEndpoints(deviceAddress, endpoints)
 
    endpoints.addEndpoint("1", "Apertura Puerta", endpointType.closureController);
    endpoints.addEndpoint("2", "Luminosidad", endpointType.lightSensor);
-   endpoints.addEndpoint("1", "Personas", endpointType.peopleCounter);
-   endpoints.addEndpoint("2", "Circulación", endpointType.flowSensor);
+   endpoints.addEndpoint("3", "Personas", endpointType.peopleCounter);
+   endpoints.addEndpoint("4", "Circulación", endpointType.flowSensor);
 }
 
 function validateDeviceAddress(address, result)
